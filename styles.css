@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: karla,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    letter-spacing: -0.5px;
+    gap:1rem;
+}
+#title {
+    font-size: 3rem;
+}
+.container {
+    margin-top: 2rem;
+}
+#dataset-type {
+    font-size: 1.3rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:red;
+}
+#canvas {
+    margin-left:-2rem;
+}
+#tooltip {
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 1rem;
+    background-color: rgba(65, 64, 64, 0.793);
+    color:white;
+    opacity:0;
+    border-radius:1rem;
+    font-weight: 400;
+    font-size: 0.85rem;
+    max-width: max-content;
+}
+.tile:hover {
+    stroke: black;
+}
